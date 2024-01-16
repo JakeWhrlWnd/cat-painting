@@ -71,3 +71,47 @@ body {
     border-right: 20px solid transparent;
     border-bottom: 40px solid #3B3B4F;
 }
+
+.cat-left-eye {
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 54px;
+    left: 39px;
+    border-radius: 60%;
+    transform: rotate(25deg);
+    background-color: #000;
+}
+
+.cat-right-eye {
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 54px;
+    left: 134px;
+    border-radius: 60%;
+    transform: rotate(-25deg);
+    background-color: #000;
+}
+
+.cat-left-inner-eye {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    transform: rotate(10deg);
+    border-radius: 60%;
+    background-color: #FFF;
+}
+
+.cat-right-inner-eye {
+    width: 10px;
+    height: 20px;
+    background-color: #FFF;
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    border-radius: 60%;
+    transform: rotate(-5deg);
+}
